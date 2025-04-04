@@ -1,17 +1,17 @@
 `timescale 1ns/1ns
 module int_ratTB ();
-	reg clk=0, rst=0, start=0, run=0;
-	wire done,fail;
-	wire [1:0] move;
-	always  #1 clk=~clk;
-	IntelligentRat ir(clk,rst,start,run,fail, done, move);
+	reg Clk=0, Rst=0, Start=0, Run=0;
+	wire Done,Fail;
+	wire [1:0] Move;
+	always  #1 Clk=~Clk;
+	IntelligentRat ir(Clk, Rst, Start, Run, Fail, Done, Move);
 	initial begin
-		#5 rst=1;
-		#5 rst=0;
-		#5 start=1;
-		#10 start=0;
-		#3000 run=1;
-		#100 run=0;
+		#5 Rst=1;
+		#5 Rst=0;
+		#5 Start=1;
+		#10 Start=0;
+		#3000 Run=1;
+		#100 Run=0;
 		#10 $stop;
 	end
 endmodule
