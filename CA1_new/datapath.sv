@@ -1,5 +1,4 @@
 `timescale 1ns/1ns
-
 module Register_4bit(input Clk, our_reset,ld,iz, input[3:0] parrel_load,iz_load,output logic[3:0] out,output logic is_full, is_empty);
     always@(posedge Clk, posedge our_reset) begin
         if(our_reset)
@@ -33,7 +32,7 @@ module Deque(input Clk, our_reset,push, pop_back, pop_front, input[1:0] stack_in
             right_pointer <= 0;
             is_deque_empty <= 1;
         end
-        else if (push) begin   // baraye 255 bayad check konam?
+        else if (push) begin
             deque[left_pointer] <= stack_in;
             left_pointer <= left_pointer + 1;
             is_deque_empty <= 0;
@@ -55,7 +54,7 @@ module Deque(input Clk, our_reset,push, pop_back, pop_front, input[1:0] stack_in
             end
         end
     end
-    
+
     assign Move = pop_front ? stack_out : 2'bzz;
 
 endmodule

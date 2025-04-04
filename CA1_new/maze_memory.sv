@@ -15,7 +15,7 @@ module MazeMemory(input Clk, our_reset, input[3:0] X,Y, input Din, Rd, Wr, outpu
 			temp = Maze[15-Y];
 			temp[X] = Din;
 			Maze[15 - Y] = temp;
-		end	
+		end
 	end
 	always@(X or Y or Rd) begin
 		if(Rd)begin
@@ -23,8 +23,7 @@ module MazeMemory(input Clk, our_reset, input[3:0] X,Y, input Din, Rd, Wr, outpu
 			Dout = temp[X];
 
 		end
-		else	
+		else
 			Dout = 1'bz;
 	end
 endmodule
-

@@ -1,6 +1,6 @@
 `timescale  1ns/1ns
 
-module IntelligentRat(input Clk,Rst,Start,Run,output Fail,Done,output[1:0] Move); // nemidunam logic mikhad ya na
+module IntelligentRat(input Clk,Rst,Start,Run,output Fail,Done,output[1:0] Move);
 
     wire[3:0] X,Y;
     logic Din,Dout,Rd,Wr;
@@ -23,8 +23,8 @@ module IntelligentRat(input Clk,Rst,Start,Run,output Fail,Done,output[1:0] Move)
 
     DataPath MyDataPath(Clk, our_reset,ld_X, ld_Y, iz_X, iz_Y, sel_X, sel_Y, sel_add, sel_sub, pX_nX, pY_nY, push, pop_back, pop_front, stack_in,
                 stack_out,Move, is_deque_empty, is_full_X, is_full_Y, is_empty_X, is_empty_Y, Finish,
-                X,Y);   
-    
+                X,Y);
+
     MazeMemory MyMazeMemory(Clk, our_reset,X,Y,Din, Rd, Wr,Dout);
 
 endmodule
