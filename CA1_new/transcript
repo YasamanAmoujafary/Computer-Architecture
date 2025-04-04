@@ -1,60 +1,30 @@
-# Compile of blabla.sv was successful.
-# Compile of intelligent_rat.sv was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv failed with 7 errors.
-# 4 compiles, 1 failed with 7 errors.
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv failed with 2 errors.
-# 4 compiles, 1 failed with 2 errors.
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv failed with 3 errors.
-# 4 compiles, 1 failed with 3 errors.
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
 # Compile of controller.sv failed with 1 errors.
 # Compile of datapath.sv was successful.
-# 4 compiles, 1 failed with 1 error.
 # Compile of intelligent_rat.sv was successful.
 # Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
+# Compile of testbench.sv was successful.
+# 5 compiles, 1 failed with 1 error.
 # Compile of controller.sv failed with 1 errors.
 # Compile of datapath.sv was successful.
-# 4 compiles, 1 failed with 1 error.
 # Compile of intelligent_rat.sv was successful.
 # Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
+# Compile of testbench.sv was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of controller.sv failed with 1 errors.
 # Compile of datapath.sv was successful.
-# 4 compiles, 0 failed with no errors.
 # Compile of intelligent_rat.sv was successful.
 # Compile of maze_memory.sv was successful.
+# Compile of testbench.sv was successful.
+# 5 compiles, 1 failed with 1 error.
 # Compile of controller.sv was successful.
 # Compile of datapath.sv was successful.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
 # Compile of testbench.sv was successful.
 # 5 compiles, 0 failed with no errors.
 vsim -gui work.int_ratTB
 # vsim -gui work.int_ratTB 
-# Start time: 19:31:56 on Apr 04,2025
+# Start time: 00:27:29 on Apr 05,2025
 # Loading sv_std.std
 # Loading work.int_ratTB
 # Loading work.IntelligentRat
@@ -64,367 +34,29 @@ vsim -gui work.int_ratTB
 # Loading work.AddSub
 # Loading work.Deque
 # Loading work.MazeMemory
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
 add wave -position insertpoint  \
-sim:/int_ratTB/clk \
-sim:/int_ratTB/rst \
-sim:/int_ratTB/start \
-sim:/int_ratTB/run \
-sim:/int_ratTB/done \
-sim:/int_ratTB/fail \
-sim:/int_ratTB/move
+sim:/int_ratTB/Clk \
+sim:/int_ratTB/Rst \
+sim:/int_ratTB/Start \
+sim:/int_ratTB/Run \
+sim:/int_ratTB/Done \
+sim:/int_ratTB/Fail \
+sim:/int_ratTB/Move
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Lenovo  Hostname: DESKTOP-SVTKJI9  ProcessID: 13624
+#           Attempting to use alternate WLF file "./wlftxwknd6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxwknd6
 run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/Computer_Architecture/CA1_new/testbench.sv(15)
 #    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-quit -sim
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.int_ratTB
-# End time: 19:35:26 on Apr 04,2025, Elapsed time: 0:03:30
-# Errors: 0, Warnings: 24
-# vsim -gui work.int_ratTB 
-# Start time: 19:35:26 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-add wave -position insertpoint  \
-sim:/int_ratTB/clk \
-sim:/int_ratTB/rst \
-sim:/int_ratTB/start \
-sim:/int_ratTB/run \
-sim:/int_ratTB/done \
-sim:/int_ratTB/fail \
-sim:/int_ratTB/move
-run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-add wave -position insertpoint sim:/int_ratTB/*
-add wave -position insertpoint sim:/int_ratTB/ir/*
-restart -f
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-quit -sim
-# End time: 19:40:51 on Apr 04,2025, Elapsed time: 0:05:25
-# Errors: 0, Warnings: 1
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.int_ratTB
-# vsim -gui work.int_ratTB 
-# Start time: 19:41:11 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-add wave -position insertpoint sim:/int_ratTB/ir/*
-run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-add wave -position insertpoint sim:/int_ratTB/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyController/*
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-quit -sim
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.int_ratTB
-# End time: 19:53:25 on Apr 04,2025, Elapsed time: 0:12:14
-# Errors: 0, Warnings: 2
-# vsim -gui work.int_ratTB 
-# Start time: 19:53:25 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-add wave -position insertpoint sim:/int_ratTB/ir/MyController/*
-run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-quit -sim
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-# End time: 19:57:47 on Apr 04,2025, Elapsed time: 0:04:22
-# Errors: 0, Warnings: 2
-vsim -gui work.int_ratTB
-# vsim -gui work.int_ratTB 
-# Start time: 19:57:56 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-add wave -position insertpoint sim:/int_ratTB/ir/*
-run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-restart -f
-add wave -position insertpoint sim:/int_ratTB/ir/MyController/*
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-quit -sim
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-# End time: 20:04:51 on Apr 04,2025, Elapsed time: 0:06:55
-# Errors: 0, Warnings: 2
-vsim -gui work.int_ratTB
-# vsim -gui work.int_ratTB 
-# Start time: 20:05:00 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-add wave -position insertpoint sim:/int_ratTB/ir/MyController/*
-run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-add wave -position insertpoint sim:/int_ratTB/ir/MyController/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyDataPath/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyMazeMemory/*
-restart -f
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-quit -sim
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.int_ratTB
-# End time: 20:14:08 on Apr 04,2025, Elapsed time: 0:09:08
-# Errors: 0, Warnings: 2
-# vsim -gui work.int_ratTB 
-# Start time: 20:14:09 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-quit -sim
-# End time: 20:14:38 on Apr 04,2025, Elapsed time: 0:00:29
-# Errors: 0, Warnings: 1
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.int_ratTB
-# vsim -gui work.int_ratTB 
-# Start time: 20:15:19 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-add wave -position insertpoint sim:/int_ratTB/ir/MyMazeMemory/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyDataPath/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyController/*
-run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-quit -sim
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-# End time: 20:23:49 on Apr 04,2025, Elapsed time: 0:08:30
-# Errors: 0, Warnings: 3
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.int_ratTB
-# vsim -gui work.int_ratTB 
-# Start time: 20:24:07 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-add wave -position insertpoint sim:/int_ratTB/ir/MyController/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyDataPath/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyMazeMemory/*
-run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-quit -sim
-# End time: 20:32:47 on Apr 04,2025, Elapsed time: 0:08:40
-# Errors: 0, Warnings: 2
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.int_ratTB
-# vsim -gui work.int_ratTB 
-# Start time: 20:33:11 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-add wave -position insertpoint sim:/int_ratTB/ir/MyDataPath/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyController/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyMazeMemory/*
-run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-quit -sim
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-# End time: 20:40:54 on Apr 04,2025, Elapsed time: 0:07:43
-# Errors: 0, Warnings: 3
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.int_ratTB
-# vsim -gui work.int_ratTB 
-# Start time: 20:42:51 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-add wave -position insertpoint sim:/int_ratTB/ir/MyController/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyDataPath/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyMazeMemory/*
-run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
-# WARNING: No extended dataflow license exists
-quit -sim
-# Compile of intelligent_rat.sv was successful.
-# Compile of maze_memory.sv was successful.
-# Compile of controller.sv was successful.
-# Compile of datapath.sv was successful.
-# Compile of testbench.sv was successful.
-# 5 compiles, 0 failed with no errors.
-# End time: 20:59:53 on Apr 04,2025, Elapsed time: 0:17:02
-# Errors: 0, Warnings: 3
-vsim -gui work.int_ratTB
-# vsim -gui work.int_ratTB 
-# Start time: 21:00:03 on Apr 04,2025
-# Loading sv_std.std
-# Loading work.int_ratTB
-# Loading work.IntelligentRat
-# Loading work.Controller
-# Loading work.DataPath
-# Loading work.Register_4bit
-# Loading work.AddSub
-# Loading work.Deque
-# Loading work.MazeMemory
-add wave -position insertpoint sim:/int_ratTB/ir/MyController/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyDataPath/*
-add wave -position insertpoint sim:/int_ratTB/ir/MyMazeMemory/*
-run -all
-# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv(17)
-#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
-# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_CA1/testbench.sv line 17
+# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/Computer_Architecture/CA1_new/testbench.sv line 15
+# End time: 00:31:44 on Apr 05,2025, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 10

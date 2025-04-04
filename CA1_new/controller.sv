@@ -40,10 +40,10 @@ module Controller (input Clk,Start,Rst,Run, input[1:0] stack_out, input is_deque
             Backtracking : ns = Pop_stack;
             Pop_stack : ns = (stack_out == 2'b00) ? Pop_up:
                                 (stack_out == 2'b01) ? Pop_right:
-                                (stack_out == 2'b10) ? Pop_left
+                                (stack_out == 2'b10) ? Pop_left:
                                 (stack_out == 2'b11) ? Pop_down:
-                                is_deque_empty ? Lose
-                                : Backtracking;
+                                is_deque_empty ? Lose:
+                                Backtracking;
             Pop_up   : ns = Up;
             Pop_right: ns = Up;
             Pop_left : ns = Up;
