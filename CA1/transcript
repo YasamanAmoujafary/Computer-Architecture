@@ -26,3 +26,23 @@
 # Compile of controller.sv was successful.
 # Compile of datapath.sv was successful.
 # 4 compiles, 0 failed with no errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of controller.sv failed with 1 errors.
+# Compile of datapath.sv was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of datapath.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of controller.sv failed with 1 errors.
+# Compile of datapath.sv was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of datapath.sv was successful.
+# 4 compiles, 0 failed with no errors.
