@@ -83,6 +83,6 @@ module DataPath(input Clk, our_reset,ld_X, ld_Y, iz_X, iz_Y, sel_X, sel_Y, sel_a
 
     Deque MyDeque(Clk, our_reset,push, pop_back, pop_front, stack_in, stack_out, Move,is_deque_empty);
 
-    assign Finish = is_full_X & is_empty_Y;
+    and Myand(Finish, is_full_X, is_empty_Y);
 
 endmodule

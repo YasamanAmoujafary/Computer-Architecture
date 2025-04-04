@@ -10,13 +10,13 @@ module Controller (input Clk,Start,Rst,Run, input[1:0] stack_out, input is_deque
     typedef enum logic[4:0] {Resetting, Idle, Starting,
                             Up, Handle_up, Push_up, Right, Handle_right, Push_right,
                             Left, Handle_left, Push_left, Down, Handle_down, Push_down,
-                            Backtracking, Pop_up, Pop_right, Pop_left, Pop_down, Win, Lose,
+                            Backtracking,Pop_stack, Pop_up, Pop_right, Pop_left, Pop_down, Win, Lose,
                             Set_start_pos, Show_path, Wait_for_Rst} STATE;
     STATE ps,ns;
 
 
     always@(posedge Clk, posedge Rst) begin
-        if(our_reset) ps <= Resetting;
+        if(Rst) ps <= Resetting;
         else ps <= ns;
     end
 
@@ -37,7 +37,8 @@ module Controller (input Clk,Start,Rst,Run, input[1:0] stack_out, input is_deque
             Down : ns = is_empty_Y ? Backtracking : Handle_down;
             Handle_down : ns = is_wall ? Backtracking : Push_down;
             Push_down : ns = Finish ? Win : Up;
-            Backtracking : ns = (stack_out == 2'b00) ? Pop_up:
+            Backtracking : ns = Pop_stack;
+            Pop_stack : ns = (stack_out == 2'b00) ? Pop_up:
                                 (stack_out == 2'b01) ? Pop_right:
                                 (stack_out == 2'b10) ? Pop_left:
                                 (stack_out == 2'b11) ? Pop_down:
