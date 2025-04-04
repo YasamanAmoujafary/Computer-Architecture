@@ -10,7 +10,7 @@ module Controller (input Clk,Start,Rst,Run, input[1:0] stack_out, input is_deque
     typedef enum logic[4:0] {Resetting, Idle, Starting,
                             Up, Handle_up, Push_up, Right, Handle_right, Push_right,
                             Left, Handle_left, Push_left, Down, Handle_down, Push_down,
-                            Backtracking,Pop_stack, Pop_up, Pop_right, Pop_left, Pop_down, Win2, Win, Lose,
+                            Backtracking,Pop_stack, Pop_up, Pop_right, Pop_left, Pop_down, Wait_for_finish, Win, Lose,
                             Set_start_pos, Show_path, Wait_for_Rst} STATE;
     STATE ps,ns;
 
@@ -27,28 +27,28 @@ module Controller (input Clk,Start,Rst,Run, input[1:0] stack_out, input is_deque
             Starting : ns = Start ? Starting : Up;
             Up : ns = is_full_Y ? Right : Handle_up;
             Handle_up : ns = is_wall ? Right : Push_up;
-            Push_up : ns = Win2;
+            Push_up : ns = Wait_for_finish;
             Right : ns = is_full_X ? Left : Handle_right;
             Handle_right : ns = is_wall ? Left : Push_right;
-            Push_right : ns = Win2;
+            Push_right : ns = Wait_for_finish;
             Left : ns = is_empty_X ? Down : Handle_left;
             Handle_left : ns = is_wall ? Down : Push_left;
-            Push_left : ns = Win2;
+            Push_left : ns = Wait_for_finish;
             Down : ns = is_empty_Y ? Backtracking : Handle_down;
             Handle_down : ns = is_wall ? Backtracking : Push_down;
-            Push_down : ns = Win2;
+            Push_down : ns = Wait_for_finish;
             Backtracking : ns = Pop_stack;
             Pop_stack : ns = (stack_out == 2'b00) ? Pop_up:
                                 (stack_out == 2'b01) ? Pop_right:
-                                (stack_out == 2'b10) ? Pop_left:
+                                (stack_out == 2'b10) ? Pop_left
                                 (stack_out == 2'b11) ? Pop_down:
-                                is_deque_empty ? Lose 
+                                is_deque_empty ? Lose
                                 : Backtracking;
             Pop_up   : ns = Up;
             Pop_right: ns = Up;
             Pop_left : ns = Up;
             Pop_down : ns = Up;
-            Win2 : ns = Finish ? Win : Up;
+            Wait_for_finish : ns = Finish ? Win : Up;
             Win : ns = Run ? Set_start_pos : Win;
             Set_start_pos : ns = Show_path;
             Show_path : ns = is_deque_empty ? Wait_for_Rst : Show_path;
