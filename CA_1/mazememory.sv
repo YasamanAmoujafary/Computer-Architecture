@@ -1,3 +1,4 @@
+
 `timescale 1ns/1ns
 
 module MazeMemory(input Clk, our_reset, input[3:0] X,Y, input Din, Rd, Wr, output logic Dout);

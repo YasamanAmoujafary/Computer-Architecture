@@ -1,3 +1,4 @@
+
 `timescale  1ns/1ns
 
 module IntelligentRat(input Clk,Rst,Start,Run,output Fail,Done,output[1:0] Move);

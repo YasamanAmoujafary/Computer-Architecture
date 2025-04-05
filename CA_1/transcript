@@ -1,0 +1,31 @@
+# Compile of testbench.sv was successful.
+# Compile of itelligant_rat.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of mazememory.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.int_ratTB
+# vsim -gui work.int_ratTB 
+# Start time: 14:27:32 on Apr 05,2025
+# Loading sv_std.std
+# Loading work.int_ratTB
+# Loading work.IntelligentRat
+# Loading work.Controller
+# Loading work.DataPath
+# Loading work.Register_4bit
+# Loading work.AddSub
+# Loading work.Deque
+# Loading work.MazeMemory
+add wave -position insertpoint  \
+sim:/int_ratTB/Clk \
+sim:/int_ratTB/Rst \
+sim:/int_ratTB/Start \
+sim:/int_ratTB/Run \
+sim:/int_ratTB/Done \
+sim:/int_ratTB/Fail \
+sim:/int_ratTB/Move
+# Load canceled
+run -all
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA_akhar/testbench.sv(15)
+#    Time: 3135 ns  Iteration: 0  Instance: /int_ratTB
+# Break in Module int_ratTB at C:/Users/Lenovo/Desktop/CA_akhar/testbench.sv line 15
