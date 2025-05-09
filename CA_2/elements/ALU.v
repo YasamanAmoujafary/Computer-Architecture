@@ -7,7 +7,7 @@ module ALU(A, B, control, out, Zero);
 	           AND_ = 3'b010,
 	           OR   = 3'b011,
 	           SRCB = 3'b100,
-	           LT_  = 3'b101,
+	           LT_  = 3'b101;
 
 	output reg signed [31:0] out;
 	output Zero;
