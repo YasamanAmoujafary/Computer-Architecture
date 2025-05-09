@@ -1,0 +1,8 @@
+addi x1, x0, 20
+addi x2, x0, 20
+bne  x1, x2, not_equal
+addi x4, x0, 1
+jal  x5, end
+not_equal:
+addi x3, x0, 2
+end:
