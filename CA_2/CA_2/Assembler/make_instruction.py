@@ -14,8 +14,8 @@
 "lui x_i, Number(20 bit)"
 
 "you can replace your assembly file name into the empty strings: "
-InputFileName = "testcases/1.txt"
-OutputFileName = "hex_testcases/1.txt"
+InputFileName = "testcases/17.txt"
+OutputFileName = "hex_testcases/2.txt"
 
 "you can change the output format, True for hex, False for decimal"
 HexFlag = True

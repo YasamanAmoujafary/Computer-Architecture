@@ -1,0 +1,92 @@
+C:/Users/mhieir/Downloads/CA_2/CA_2/Extend.v {1 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/Extend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Extend
+
+Top level modules:
+	Extend
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/MUX2to1.v {1 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/MUX2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX2to1
+
+Top level modules:
+	MUX2to1
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/ALU.v {2 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+** Warning: C:/Users/mhieir/Downloads/CA_2/CA_2/ALU.v(2): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: C:/Users/mhieir/Downloads/CA_2/CA_2/ALU.v(12): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/DataMemory.v {2 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/DataMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_Memory
+** Warning: C:/Users/mhieir/Downloads/CA_2/CA_2/DataMemory.v(3): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: C:/Users/mhieir/Downloads/CA_2/CA_2/DataMemory.v(5): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: C:/Users/mhieir/Downloads/CA_2/CA_2/DataMemory.v(7): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/Controller.v {1 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/DataPath.v {1 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/DataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPth
+
+Top level modules:
+	DataPth
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/riscV.v {1 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/riscV.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RiscV
+
+Top level modules:
+	RiscV
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/testBench.v {1 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/testBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module riscV_SC_TB
+
+Top level modules:
+	riscV_SC_TB
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/MUX3to1.v {1 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/MUX3to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX3to1
+
+Top level modules:
+	MUX3to1
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/InstructionMemory.v {1 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/InstructionMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Instruction_Memory
+
+Top level modules:
+	Instruction_Memory
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/RegisterFile.v {2 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/RegisterFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register_File
+** Warning: C:/Users/mhieir/Downloads/CA_2/CA_2/RegisterFile.v(8): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: C:/Users/mhieir/Downloads/CA_2/CA_2/RegisterFile.v(10): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	Register_File
+
+} {} {}} C:/Users/mhieir/Downloads/CA_2/CA_2/Register.v {1 {vlog -work work -stats=none C:/Users/mhieir/Downloads/CA_2/CA_2/Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}}

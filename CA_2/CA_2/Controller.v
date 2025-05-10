@@ -62,14 +62,14 @@ module Controller(op, func3, func7, Zero,PCSrc, ResultSrc, MemWrite, ALUControl,
         done = 1'b0;
 
         case(op)
-            `lw:   begin RegWrite = 1; ALUSrc = 1; ResultSrc = 2'b01; end 
-            `sw:   begin ImmSrc = 3'b001; ALUSrc = 1; MemWrite = 1; end 
-            `RT:   begin RegWrite = 1; aluOp = 2'b10; end   //add,sub,and,or,slt
-            `BT:   begin ImmSrc = 3'b010; branch = 1; aluOp = 2'b01; end //beq,bne
-            `IT:   begin RegWrite = 1; ALUSrc = 1; aluOp = 2'b10; end   //lw,addi,ori,slti
-            `jal:  begin RegWrite = 1; ImmSrc = 3'b011; ResultSrc = 2'b10; jmp = 1; end
-            `jalr: begin RegWrite = 1; ALUSrc = 1;ResultSrc = 2'b10; jalr_sel = 1; end
-            `lui:  begin RegWrite = 1; ImmSrc = 3'b100; aluOp = 2'b11; end
+            lw:   begin RegWrite = 1; ALUSrc = 1; ResultSrc = 2'b01; end 
+            sw:   begin ImmSrc = 3'b001; ALUSrc = 1; MemWrite = 1; end 
+            RT:   begin RegWrite = 1; aluOp = 2'b10; end   //add,sub,and,or,slt
+            BT:   begin ImmSrc = 3'b010; branch = 1; aluOp = 2'b01; end //beq,bne
+            IT:   begin RegWrite = 1; ALUSrc = 1; aluOp = 2'b10; end   //lw,addi,ori,slti
+            jal:  begin RegWrite = 1; ImmSrc = 3'b011; ResultSrc = 2'b10; jmp = 1; end
+            jalr: begin RegWrite = 1; ALUSrc = 1;ResultSrc = 2'b10; jalr_sel = 1; end
+            lui:  begin RegWrite = 1; ImmSrc = 3'b100; aluOp = 2'b11; end
             default: done = 1;
         endcase
 

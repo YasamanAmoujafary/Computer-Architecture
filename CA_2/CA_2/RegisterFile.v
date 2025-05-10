@@ -1,13 +1,16 @@
-module Register_File(clk, rst, A1, A2, A3, WD3, WE3, RD1, RD2);
+module Register_File(clk, rst, A1, A2, A3, WD3, WE3, RD1, RD2, maxOne);
 
     input clk, rst;
     input [4:0] A1, A2, A3;
     input [31:0] WD3;
     input WE3;
 
-    output signed [31:0] RD1, RD2;
+    output unsigned [31:0] RD1, RD2;
 
-    reg signed [31:0] Regs[31:0];
+    reg unsigned [31:0] Regs[31:0];
+
+    output [31:0]maxOne;
+    assign maxOne = Regs[9];
 
     assign RD1 = Regs[A1];
     assign RD2 = Regs[A2];
