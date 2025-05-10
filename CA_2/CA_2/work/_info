@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 vALU
-Z0 !s110 1746882476
+Z0 !s110 1746941670
 !i10b 1
 !s100 JTiclTb9hocnEAM7S=[?i1
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 dC:/Users/mhieir/Downloads/CA_2/CA_2
 w1746882364
 8C:/Users/mhieir/Downloads/CA_2/CA_2/ALU.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/ALU.v
-!i122 387
+!i122 411
 L0 1 29
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1746882476.000000
+Z5 !s108 1746941670.000000
 !s107 C:/Users/mhieir/Downloads/CA_2/CA_2/ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mhieir/Downloads/CA_2/CA_2/ALU.v|
 !i113 1
@@ -44,7 +44,7 @@ R3
 w1746809924
 8C:/Users/mhieir/Downloads/CA_2/CA_2/Controller.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/Controller.v
-!i122 386
+!i122 410
 L0 1 78
 R4
 r1
@@ -68,7 +68,7 @@ R3
 w1746820282
 8C:/Users/mhieir/Downloads/CA_2/CA_2/DataMemory.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/DataMemory.v
-!i122 388
+!i122 412
 L0 1 21
 R4
 r1
@@ -92,13 +92,13 @@ R3
 w1746819452
 8C:/Users/mhieir/Downloads/CA_2/CA_2/DataPath.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/DataPath.v
-!i122 385
+!i122 409
 L0 1 48
 R4
 r1
 !s85 0
 31
-R5
+!s108 1746941669.000000
 !s107 C:/Users/mhieir/Downloads/CA_2/CA_2/DataPath.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mhieir/Downloads/CA_2/CA_2/DataPath.v|
 !i113 1
@@ -106,7 +106,7 @@ R6
 R7
 n@data@pth
 vExtend
-R0
+Z8 !s110 1746941672
 !i10b 1
 !s100 `SQUzhS^X_0aiaM6Mc@7k1
 R1
@@ -116,13 +116,13 @@ R3
 w1746882394
 8C:/Users/mhieir/Downloads/CA_2/CA_2/Extend.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/Extend.v
-!i122 389
+!i122 413
 L0 1 16
 R4
 r1
 !s85 0
 31
-R5
+Z9 !s108 1746941672.000000
 !s107 C:/Users/mhieir/Downloads/CA_2/CA_2/Extend.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mhieir/Downloads/CA_2/CA_2/Extend.v|
 !i113 1
@@ -130,7 +130,7 @@ R6
 R7
 n@extend
 vInstruction_Memory
-R0
+R8
 !i10b 1
 !s100 Lbm@1<FaRoW>S]aa39LKh3
 R1
@@ -140,13 +140,13 @@ R3
 w1746817405
 8C:/Users/mhieir/Downloads/CA_2/CA_2/InstructionMemory.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/InstructionMemory.v
-!i122 390
-Z8 L0 1 13
+!i122 414
+Z10 L0 1 13
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/mhieir/Downloads/CA_2/CA_2/InstructionMemory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mhieir/Downloads/CA_2/CA_2/InstructionMemory.v|
 !i113 1
@@ -154,23 +154,23 @@ R6
 R7
 n@instruction_@memory
 vMUX2to1
-Z9 !s110 1746882477
+R8
 !i10b 1
 !s100 g@Q2CQCoB<W_M;jgAOCfe1
 R1
 I:MXE2N4Ao5@I>LR45;9KA2
 R2
 R3
-Z10 w1746792623
+Z11 w1746792623
 8C:/Users/mhieir/Downloads/CA_2/CA_2/MUX2to1.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/MUX2to1.v
-!i122 391
+!i122 415
 L0 1 7
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/mhieir/Downloads/CA_2/CA_2/MUX2to1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mhieir/Downloads/CA_2/CA_2/MUX2to1.v|
 !i113 1
@@ -178,23 +178,23 @@ R6
 R7
 n@m@u@x2to1
 vMUX3to1
-R9
+R8
 !i10b 1
 !s100 Wh6>V]@Q>?FzhUoS<KdJ<1
 R1
 IZ4V2:9kS2[6S6kW>>amV>2
 R2
 R3
-R10
+R11
 8C:/Users/mhieir/Downloads/CA_2/CA_2/MUX3to1.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/MUX3to1.v
-!i122 392
+!i122 416
 L0 1 8
 R4
 r1
 !s85 0
 31
-Z11 !s108 1746882477.000000
+R9
 !s107 C:/Users/mhieir/Downloads/CA_2/CA_2/MUX3to1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mhieir/Downloads/CA_2/CA_2/MUX3to1.v|
 !i113 1
@@ -202,23 +202,23 @@ R6
 R7
 n@m@u@x3to1
 vRegister
-R9
+Z12 !s110 1746941673
 !i10b 1
 !s100 cJQHP0?8NE3_;PldLWzhc3
 R1
 Ij`LB:Xe0G6Bih8K][S^zz1
 R2
 R3
-R10
+R11
 8C:/Users/mhieir/Downloads/CA_2/CA_2/Register.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/Register.v
-!i122 393
-R8
+!i122 417
+R10
 R4
 r1
 !s85 0
 31
-R11
+Z13 !s108 1746941673.000000
 !s107 C:/Users/mhieir/Downloads/CA_2/CA_2/Register.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mhieir/Downloads/CA_2/CA_2/Register.v|
 !i113 1
@@ -226,7 +226,7 @@ R6
 R7
 n@register
 vRegister_File
-R9
+R12
 !i10b 1
 !s100 fj[J9;T`P0nHL^YH11`NE1
 R1
@@ -236,13 +236,13 @@ R3
 w1746820143
 8C:/Users/mhieir/Downloads/CA_2/CA_2/RegisterFile.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/RegisterFile.v
-!i122 394
+!i122 418
 L0 1 30
 R4
 r1
 !s85 0
 31
-R11
+R13
 !s107 C:/Users/mhieir/Downloads/CA_2/CA_2/RegisterFile.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mhieir/Downloads/CA_2/CA_2/RegisterFile.v|
 !i113 1
@@ -250,7 +250,7 @@ R6
 R7
 n@register_@file
 vRiscV
-R9
+R12
 !i10b 1
 !s100 j3o=BXbAE`4U6O2h@Ufgc0
 R1
@@ -260,13 +260,13 @@ R3
 w1746811650
 8C:/Users/mhieir/Downloads/CA_2/CA_2/riscV.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/riscV.v
-!i122 396
+!i122 420
 L0 3 17
 R4
 r1
 !s85 0
 31
-R11
+R13
 !s107 C:/Users/mhieir/Downloads/CA_2/CA_2/riscV.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mhieir/Downloads/CA_2/CA_2/riscV.v|
 !i113 1
@@ -274,7 +274,7 @@ R6
 R7
 n@risc@v
 vriscV_SC_TB
-R9
+R12
 !i10b 1
 !s100 hoj;`]9Dho3:?f>Sfz]OX3
 R1
@@ -284,13 +284,13 @@ R3
 w1746810805
 8C:/Users/mhieir/Downloads/CA_2/CA_2/testBench.v
 FC:/Users/mhieir/Downloads/CA_2/CA_2/testBench.v
-!i122 395
+!i122 419
 L0 3 13
 R4
 r1
 !s85 0
 31
-R11
+R13
 !s107 C:/Users/mhieir/Downloads/CA_2/CA_2/testBench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mhieir/Downloads/CA_2/CA_2/testBench.v|
 !i113 1
