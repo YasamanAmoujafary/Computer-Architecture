@@ -1,5 +1,5 @@
 module InstructionMemory (
-    input clk,
+    input clk,input rst,
     input reg w_en,
     input reg [4:0] addr,
     input reg [7:0] wdata,
@@ -10,8 +10,8 @@ module InstructionMemory (
 
     always @(posedge clk, posedge rst) begin
         if (rst) begin
-            $readmemh("inst.mem", memory, 0, 15);
-            $readmemh("mem.mem",  memory, 16, 31);
+            $readmemb("inst.mem", memory, 0, 15);
+            $readmemb("mem.mem",  memory, 16, 31);
         end
         else if (w_en)
             memory[addr] <= wdata;

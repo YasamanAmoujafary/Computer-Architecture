@@ -8,23 +8,24 @@ module DataPath(
     output Zero
     );
 
-    wire [4:0] Adr, PCNext;
+    wire [4:0] Adr, PCNext, PC;
     wire [7:0] WriteData, ReadData, OldPC, Instr, Data, StackOut, A, SrcA, SrcB, ALUResult, AluOut, Result;
 
-    assign PCNext = Result[0:4];
+    assign PCNext = Result[4:0];
+    assign op = Instr[7:5];
     ParamRegister #(5) my_pc_register (clk, rst, PCWrite, PCNext, PC);
     MUX2to1_5Bit my_MUX2to1_5Bit(PC, PCNext, AdrSrc, Adr);
-    InstructionMemory my_InstructionMemory(clk, MemWrite, Adr, WriteData, ReadData);
+    InstructionMemory my_InstructionMemory(clk, rst,MemWrite, Adr, WriteData, ReadData);
     ParamRegister #(8) my_clk_register (clk, rst, IRWrite, {3'b000, PC}, OldPC);
     ParamRegister #(8) my_instr_register (clk, rst, IRWrite, ReadData, Instr);
     ParamRegister #(8) my_data_register (clk, rst, IRWrite, 1'b1, Data);
-    Stack8x32 my_stack(clk, rst, Push, Pop, TOS, Result, StackOut);
+    Stack my_stack(clk, rst, Push, Pop, Tos, Result, StackOut);
     ParamRegister #(8) my_A_reg(clk, rst, LoadA, StackOut, A);
     ParamRegister #(8) my_B_reg(clk, rst, LoadB, StackOut, WriteData);
     MUX3to1 my_A_mux({3'b000, PC}, OldPC, A, ALUSrcA, SrcA);
-    MUX3to1 my_B_mux(WriteData, {3'b000, Instr[0:4]}, 8'b11111111, ALUSrcB, SrcB);
+    MUX3to1 my_B_mux(WriteData, {3'b000, Instr[4:0]}, 8'd1, ALUSrcB, SrcB);
     ALU my_ALU(ALUControl, SrcA, SrcB, Zero, ALUResult);
     ParamRegister #(8) my_alu_register(clk, rst, 1'b1, ALUResult, AluOut);
-    MUX4to1 my_MUX4to1(AluOut, Data, ALUResult, {3'b000, Instr[0:4]}, ResultSrc, Result);
+    MUX4to1 my_MUX4to1(AluOut, Data, ALUResult, {3'b000, Instr[4:0]}, ResultSrc, Result);
 
 endmodule

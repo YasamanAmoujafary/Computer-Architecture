@@ -1,0 +1,299 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vALU
+!s110 1748443213
+!i10b 1
+!s100 DL]U4^I8ILjL=6Ebi1Z]<3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IGYMMW:KSB540<j?nG`a>I1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Lenovo/Desktop/CA3
+w1748437237
+8C:/Users/Lenovo/Desktop/CA3/ALU.v
+FC:/Users/Lenovo/Desktop/CA3/ALU.v
+!i122 286
+L0 4 27
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1748443212.000000
+!s107 C:/Users/Lenovo/Desktop/CA3/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/ALU.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@a@l@u
+vController
+!s110 1748443214
+!i10b 1
+!s100 WE8e>oaRUG00DE^TdgEMj1
+R0
+I8A_80mFU>1f`Hi73DYeOo1
+R1
+R2
+w1748443207
+8C:/Users/Lenovo/Desktop/CA3/Controller.v
+FC:/Users/Lenovo/Desktop/CA3/Controller.v
+!i122 287
+L0 4 125
+R3
+r1
+!s85 0
+31
+!s108 1748443213.000000
+!s107 C:/Users/Lenovo/Desktop/CA3/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/Controller.v|
+!i113 1
+R4
+R5
+n@controller
+vDataPath
+!s110 1748443215
+!i10b 1
+!s100 HO_5jmGHDdPnbPbz5Gcci1
+R0
+I^<zQc9bdW2f5E@E5[SKmY0
+R1
+R2
+w1748441956
+8C:/Users/Lenovo/Desktop/CA3/DataPath.v
+FC:/Users/Lenovo/Desktop/CA3/DataPath.v
+!i122 288
+L0 3 29
+R3
+r1
+!s85 0
+31
+!s108 1748443214.000000
+!s107 C:/Users/Lenovo/Desktop/CA3/DataPath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/DataPath.v|
+!i113 1
+R4
+R5
+n@data@path
+vInstructionMemory
+!s110 1748443216
+!i10b 1
+!s100 <=S;YChHdE<o^4?@DZf:E1
+R0
+IhFR=^[BgWG00TWM`faU^H3
+R1
+R2
+w1748440477
+8C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v
+FC:/Users/Lenovo/Desktop/CA3/InstDataMemory.v
+!i122 289
+L0 1 22
+R3
+r1
+!s85 0
+31
+!s108 1748443215.000000
+!s107 C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v|
+!i113 1
+R4
+R5
+n@instruction@memory
+vMultiCycle
+!s110 1748443217
+!i10b 1
+!s100 Ce4`iSMl;AN1Y6M6l2A000
+R0
+I?zn?YhQf6214aVG0U^0P?1
+R1
+R2
+w1748441033
+8C:/Users/Lenovo/Desktop/CA3/MultiCycle.v
+FC:/Users/Lenovo/Desktop/CA3/MultiCycle.v
+!i122 290
+L0 3 24
+R3
+r1
+!s85 0
+31
+!s108 1748443216.000000
+!s107 C:/Users/Lenovo/Desktop/CA3/MultiCycle.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/MultiCycle.v|
+!i113 1
+R4
+R5
+n@multi@cycle
+vMUX2to1
+Z6 !s110 1748443218
+!i10b 1
+!s100 baiDJYIRfX<S3FX0ZfUl30
+R0
+I8:1DjoVk`ba`5]`<Mk3HI0
+R1
+R2
+Z7 w1748441159
+Z8 8C:/Users/Lenovo/Desktop/CA3/MUX2to1.v
+Z9 FC:/Users/Lenovo/Desktop/CA3/MUX2to1.v
+!i122 291
+L0 1 7
+R3
+r1
+!s85 0
+31
+Z10 !s108 1748443217.000000
+Z11 !s107 C:/Users/Lenovo/Desktop/CA3/MUX2to1.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/MUX2to1.v|
+!i113 1
+R4
+R5
+n@m@u@x2to1
+vMUX2to1_5Bit
+R6
+!i10b 1
+!s100 `>a6WkmKoVZZ^YTY8Lh0B0
+R0
+IK8GW1PFL7C7HJImmeeaYb2
+R1
+R2
+R7
+R8
+R9
+!i122 291
+L0 9 7
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+R5
+n@m@u@x2to1_5@bit
+vMUX3to1
+!s110 1748443219
+!i10b 1
+!s100 0HjkPT5z=;b9Fgm1I<ch_1
+R0
+IC:O9MZUe;d^]WOTNOPaeE1
+R1
+R2
+Z13 w1748353155
+8C:/Users/Lenovo/Desktop/CA3/MUX3to1.v
+FC:/Users/Lenovo/Desktop/CA3/MUX3to1.v
+!i122 292
+L0 1 8
+R3
+r1
+!s85 0
+31
+!s108 1748443218.000000
+!s107 C:/Users/Lenovo/Desktop/CA3/MUX3to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/MUX3to1.v|
+!i113 1
+R4
+R5
+n@m@u@x3to1
+vMUX4to1
+!s110 1748443220
+!i10b 1
+!s100 79h[[ANo8PPmn:=NPOZN13
+R0
+I6_OJ7?aRXKNN8]lZ9J3;52
+R1
+R2
+w1748437272
+8C:/Users/Lenovo/Desktop/CA3/MUX4to1.v
+FC:/Users/Lenovo/Desktop/CA3/MUX4to1.v
+!i122 293
+L0 1 9
+R3
+r1
+!s85 0
+31
+!s108 1748443219.000000
+!s107 C:/Users/Lenovo/Desktop/CA3/MUX4to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/MUX4to1.v|
+!i113 1
+R4
+R5
+n@m@u@x4to1
+vParamRegister
+!s110 1748443221
+!i10b 1
+!s100 mSe;C4d9l]ziL8=dOkNLK0
+R0
+Iaafj=3;3nz:A=?RBJoEl<0
+R1
+R2
+R13
+8C:/Users/Lenovo/Desktop/CA3/Register.v
+FC:/Users/Lenovo/Desktop/CA3/Register.v
+!i122 294
+L0 1 20
+R3
+r1
+!s85 0
+31
+!s108 1748443220.000000
+!s107 C:/Users/Lenovo/Desktop/CA3/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/Register.v|
+!i113 1
+R4
+R5
+n@param@register
+vriscV_MC_TB
+!s110 1748443223
+!i10b 1
+!s100 `MXfe:lNlN=E7H>a8VNCl2
+R0
+IhRK88cabjBZ>LQi^VfmXM3
+R1
+R2
+w1748443188
+8C:/Users/Lenovo/Desktop/CA3/TB.v
+FC:/Users/Lenovo/Desktop/CA3/TB.v
+!i122 296
+L0 3 13
+R3
+r1
+!s85 0
+31
+!s108 1748443222.000000
+!s107 C:/Users/Lenovo/Desktop/CA3/TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/TB.v|
+!i113 1
+R4
+R5
+nrisc@v_@m@c_@t@b
+vStack
+!s110 1748443222
+!i10b 1
+!s100 h?^?9jEfkobH12?F93GOm0
+R0
+ISBJZPcFVJ4oggSIS5WaWJ3
+R1
+R2
+R13
+8C:/Users/Lenovo/Desktop/CA3/Stack.v
+FC:/Users/Lenovo/Desktop/CA3/Stack.v
+!i122 295
+L0 3 21
+R3
+r1
+!s85 0
+31
+!s108 1748443221.000000
+!s107 C:/Users/Lenovo/Desktop/CA3/Stack.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lenovo/Desktop/CA3/Stack.v|
+!i113 1
+R4
+R5
+n@stack

@@ -1,0 +1,850 @@
+# Compile of ALU.v failed with 2 errors.
+# Compile of Controller.v failed with 38 errors.
+# Compile of DataPath.v failed with 3 errors.
+# Compile of InstDataMemory.v failed with 1 errors.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v failed with 3 errors.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 5 failed with 47 errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v failed with 38 errors.
+# Compile of DataPath.v failed with 3 errors.
+# Compile of InstDataMemory.v failed with 1 errors.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v failed with 3 errors.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 4 failed with 45 errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v failed with 38 errors.
+# Compile of DataPath.v failed with 3 errors.
+# Compile of InstDataMemory.v failed with 1 errors.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 3 failed with 42 errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v failed with 38 errors.
+# Compile of DataPath.v failed with 3 errors.
+# Compile of InstDataMemory.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 2 failed with 41 errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v failed with 38 errors.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 1 failed with 38 errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v failed with 12 errors.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 1 failed with 12 errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v failed with 13 errors.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 1 failed with 13 errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v failed with 4 errors.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 1 failed with 4 errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v failed with 2 errors.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 1 failed with 2 errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Load canceled
+# Load canceled
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.riscV_MC_TB
+# vsim -gui work.riscV_MC_TB 
+# Start time: 17:10:43 on May 28,2025
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# ** Error: (vsim-3033) Instantiation of 'Stack8x32' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 21
+#         Searched libraries:
+#             C:/Users/Lenovo/Desktop/CA3/work
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# Error loading design
+# End time: 17:10:46 on May 28,2025, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 20
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.riscV_MC_TB
+# vsim -gui work.riscV_MC_TB 
+# Start time: 17:12:00 on May 28,2025
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_pc_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX2to1.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_MUX2to1_5Bit File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 16
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_InstructionMemory'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (5) for port 'w_en'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'addr'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Desktop/CA3/DataPath.v(17): [TFMPC] - Missing connection for port 'rdata'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_clk_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX3to1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_A_mux File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 24
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_pc_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX2to1.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_MUX2to1_5Bit File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 16
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_InstructionMemory'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (5) for port 'w_en'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'addr'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Desktop/CA3/DataPath.v(17): [TFMPC] - Missing connection for port 'rdata'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_clk_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX3to1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_A_mux File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 24
+add wave -position insertpoint  \
+sim:/riscV_MC_TB/clk \
+sim:/riscV_MC_TB/rst \
+sim:/riscV_MC_TB/done \
+sim:/riscV_MC_TB/Done
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+# WARNING: No extended dataflow license exists
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_pc_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX2to1.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_MUX2to1_5Bit File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 16
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_InstructionMemory'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (5) for port 'w_en'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'addr'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Desktop/CA3/DataPath.v(17): [TFMPC] - Missing connection for port 'rdata'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_clk_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX3to1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_A_mux File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 24
+# Warning in wave window restart: (vish-4014) No objects found matching '/riscV_MC_TB/Done'. 
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/TB.v(12)
+#    Time: 30 ns  Iteration: 0  Instance: /riscV_MC_TB
+# Break in Module riscV_MC_TB at C:/Users/Lenovo/Desktop/CA3/TB.v line 12
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_pc_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX2to1.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_MUX2to1_5Bit File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 16
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'my_InstructionMemory'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (5) for port 'w_en'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'addr'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3722) C:/Users/Lenovo/Desktop/CA3/DataPath.v(17): [TFMPC] - Missing connection for port 'rdata'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_clk_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX3to1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_A_mux File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 24
+run -continue
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/TB.v(12)
+#    Time: 30 ns  Iteration: 0  Instance: /riscV_MC_TB
+# Break in Module riscV_MC_TB at C:/Users/Lenovo/Desktop/CA3/TB.v line 12
+run -all
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/TB.v(12)
+#    Time: 110 ns  Iteration: 0  Instance: /riscV_MC_TB
+# Break in Module riscV_MC_TB at C:/Users/Lenovo/Desktop/CA3/TB.v line 12
+run -all
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/TB.v(12)
+#    Time: 190 ns  Iteration: 0  Instance: /riscV_MC_TB
+# Break in Module riscV_MC_TB at C:/Users/Lenovo/Desktop/CA3/TB.v line 12
+run -all
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/TB.v(12)
+#    Time: 270 ns  Iteration: 0  Instance: /riscV_MC_TB
+# Break in Module riscV_MC_TB at C:/Users/Lenovo/Desktop/CA3/TB.v line 12
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_pc_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX2to1.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_MUX2to1_5Bit File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_clk_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX3to1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_A_mux File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 24
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/TB.v(12)
+#    Time: 30 ns  Iteration: 0  Instance: /riscV_MC_TB
+# Break in Module riscV_MC_TB at C:/Users/Lenovo/Desktop/CA3/TB.v line 12
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_pc_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX2to1.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_MUX2to1_5Bit File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_clk_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX3to1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_A_mux File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 24
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/TB.v(12)
+#    Time: 30 ns  Iteration: 0  Instance: /riscV_MC_TB
+# Break in Module riscV_MC_TB at C:/Users/Lenovo/Desktop/CA3/TB.v line 12
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/riscV_MC_TB/Mymulticycle/MyController/*
+add wave -position insertpoint sim:/riscV_MC_TB/Mymulticycle/Mydp/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.ParamRegister
+# Loading work.Stack
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_pc_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX2to1.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_MUX2to1_5Bit File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_clk_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX3to1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_A_mux File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 24
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/TB.v(12)
+#    Time: 30 ns  Iteration: 0  Instance: /riscV_MC_TB
+# Break in Module riscV_MC_TB at C:/Users/Lenovo/Desktop/CA3/TB.v line 12
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_pc_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX2to1.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_MUX2to1_5Bit File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_clk_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX3to1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_A_mux File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 24
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/CA3/TB.v(12)
+#    Time: 30 ns  Iteration: 0  Instance: /riscV_MC_TB
+# Break in Module riscV_MC_TB at C:/Users/Lenovo/Desktop/CA3/TB.v line 12
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_pc_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX2to1.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_MUX2to1_5Bit File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_clk_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX3to1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_A_mux File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 24
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile canceled.
+# 5 out of 11 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_pc_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX2to1.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_MUX2to1_5Bit File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_clk_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (4) for port 'inp0'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/MUX3to1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_A_mux File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 25
+# Warning in wave window restart: (vish-4014) No objects found matching '/riscV_MC_TB/Mymulticycle/Mydp/TOS'. 
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 21
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile canceled.
+# 5 out of 11 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 21
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 21
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 21
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 21
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of InstDataMemory.v was successful.
+# Compile of MultiCycle.v was successful.
+# Compile of MUX2to1.v was successful.
+# Compile of MUX3to1.v was successful.
+# Compile of MUX4to1.v was successful.
+# Compile of Register.v was successful.
+# Compile of Stack.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.riscV_MC_TB
+# Loading work.MultiCycle
+# Loading work.DataPath
+# Loading work.ParamRegister
+# Loading work.MUX2to1_5Bit
+# Loading work.InstructionMemory
+# Loading work.Stack
+# Loading work.MUX3to1
+# Loading work.ALU
+# Loading work.MUX4to1
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'in'. The port definition is at: C:/Users/Lenovo/Desktop/CA3/Register.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_data_register File: C:/Users/Lenovo/Desktop/CA3/DataPath.v Line: 21
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 9 of file "inst.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(13)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "mem.mem". Expected 16, found 8.    : C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v(14)
+#    Time: 0 ns  Iteration: 1  Instance: /riscV_MC_TB/Mymulticycle/Mydp/my_InstructionMemory

@@ -1,0 +1,66 @@
+C:/Users/Lenovo/Desktop/CA3/Stack.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/CA3/Stack.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Stack
+
+Top level modules:
+	Stack
+
+} {} {}} C:/Users/Lenovo/Desktop/CA3/MUX4to1.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/CA3/MUX4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX4to1
+
+Top level modules:
+	MUX4to1
+
+} {} {}} C:/Users/Lenovo/Desktop/CA3/ALU.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/CA3/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/Lenovo/Desktop/CA3/DataPath.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/CA3/DataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
+
+} {} {}} C:/Users/Lenovo/Desktop/CA3/MultiCycle.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/CA3/MultiCycle.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MultiCycle
+
+Top level modules:
+	MultiCycle
+
+} {} {}} C:/Users/Lenovo/Desktop/CA3/MUX2to1.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/CA3/MUX2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX2to1
+-- Compiling module MUX2to1_5Bit
+
+Top level modules:
+	MUX2to1
+	MUX2to1_5Bit
+
+} {} {}} C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/CA3/InstDataMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} C:/Users/Lenovo/Desktop/CA3/Register.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/CA3/Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ParamRegister
+
+Top level modules:
+	ParamRegister
+
+} {} {}} C:/Users/Lenovo/Desktop/CA3/MUX3to1.v {1 {vlog -work work -stats=none C:/Users/Lenovo/Desktop/CA3/MUX3to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX3to1
+
+Top level modules:
+	MUX3to1
+
+} {} {}}

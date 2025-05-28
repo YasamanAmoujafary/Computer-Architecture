@@ -3,7 +3,7 @@ module MUX2to1(inp0, inp1, sel, out);
 	input sel;
 	output [7:0] out;
 	assign out = sel == 1'b0 ? inp0 :
-		     sel == 1'b1 ? inp1 : 32'bx;
+		     sel == 1'b1 ? inp1 : 8'bx;
 endmodule
 
 module MUX2to1_5Bit(inp0, inp1, sel, out);
@@ -11,5 +11,5 @@ module MUX2to1_5Bit(inp0, inp1, sel, out);
 	input sel;
 	output [4:0] out;
 	assign out = sel == 1'b0 ? inp0 :
-		     sel == 1'b1 ? inp1 : 32'bx;
+		     sel == 1'b1 ? inp1 : 5'bx;
 endmodule

@@ -1,12 +1,19 @@
 `timescale 1ns/1ns
 
-typedef enum logic [2:0] {ADD_OP, SUB_OP, AND_OP, NOT_OP, ISZERO_OP} ALUOP;
+
 module ALU(
     input [2:0] ALUcontrol,
     input [7:0]SrcA,
     input [7:0]SrcB,
     output zero,
     output reg [7:0]ALUResult);
+
+    localparam [2:0] ADD_OP    = 3'b000;
+    localparam [2:0] SUB_OP    = 3'b001;
+    localparam [2:0] AND_OP    = 3'b010;
+    localparam [2:0] NOT_OP    = 3'b011;
+    localparam [2:0] ISZERO_OP = 3'b100;
+
 
     always@(ALUcontrol, SrcA, SrcB) begin
         case(ALUcontrol)
