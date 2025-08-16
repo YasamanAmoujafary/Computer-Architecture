@@ -1,0 +1,11 @@
+addi x2, x0, 0
+addi x4, x0, 0
+addi x5, x0, 20
+addi x6, x0, 5
+
+store_loop:
+    sw x6, 0(x2)
+    addi x2, x2, 4
+    addi x6, x6, 3
+    addi x4, x4, 1
+    bne x4, x5, store_loop

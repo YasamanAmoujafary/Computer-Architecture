@@ -1,0 +1,2 @@
+addi x1, x0, 4
+ori  x2, x1, 1
